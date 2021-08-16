@@ -1,0 +1,2 @@
+# Finance-Tracker-App
+This is the finance tracker app from the Complete Ruby on Rails Developer udemy course
