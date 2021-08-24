@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2021_08_23_065211) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-
+  Sign out
   create_table "user_stocks", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "stock_id", null: false
