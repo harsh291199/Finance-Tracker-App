@@ -4,10 +4,10 @@
 
 <% if @friend %>
   <div class="card card-header results-block">
-    <strong>Email: </strong> <%= @friend.email %>
-    <strong>First Name: </strong> <%= @friend.first_name %>
-    <strong>Last Name: </strong> <%= @friend.last_name %>
-      <%= link_to 'Add to portfolio', '#',
+    <strong>Email: </strong> <%= @friend %>
+    <strong>First Name: </strong> <%= @friend %>
+    <strong>Last Name: </strong> <%= @friend %>
+      <%= link_to 'Follow friend?', '#',
                                       class: "btn btn-outline-success", method: :post %>
   </div>
 <% end %>
